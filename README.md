@@ -1,9 +1,10 @@
 # word-counter-with-linked-list
  
-I. Problem tanımı
+ # I. Problem tanımı
   Verilen bir text dosyasından dosyadan okuma yöntemiyle alınan kelimelerin, kelime adetleri de hesaplanarak bir kelime bağlı listede birden fazla bulunmayacak şekilde bağlı listeye eklenmesi istenmiştir. 
   Kelime sayıları bağlı listeye eklenmeden önce hesaplanmıştır ve başa ekle, sona ekle, araya ekle fonksiyonları kullanılarak kelimeler eklenmiştir. Bağlı listede kelimeler kelime adetlerine göre büyükten küçüğe sıralanmıştır. Konsol çıktısında her bir kelimenin yanında kelimenin text içinde bulunma sayısı gösterilmiştir.
-II. Yapılan araştırmalar
+
+# II. Yapılan araştırmalar
   Öncelikle ekleme fonksiyonlarını yazarak manuel olarak eleman eklemesi denemesi yaptık ve fonksiyonlarımız çalışma durumunu test ettik. Başa ekle, sona ekle ve araya ekle fonksiyonlarını yazarken veri yapıları ve algoritmaları dersinden öğrendiklerimizi kullandık.
   İlk olarak dosyadan alırken karakter olarak alarak strtok fonksiyonu yardımıyla her boşlukta keyword değişkenine atadık. Fakat bu yöntem daha sonra çalışmamızı zorlaştırdığı ve sağlıklı bir yöntem olmadığı için vazgeçtik. Onun yerine daha sonra genel yapı bölümünde de anlatacağımız dosyayı while döngüsü kullanarak iki kere okuyarak dosyadan aldığımız kelimenin dosya içinde tekrar bulunup bulunmadığını test etme sorununu da çözmüş olduk.
   Projemiz sürecinde kullanacağımız strcpy ve strcmp fonksiyonlarını araştırdık [1] [2]. Kullanımlarını anlatımlar üzerinden öğrendik ve kendi kodumuzda kullandık.
